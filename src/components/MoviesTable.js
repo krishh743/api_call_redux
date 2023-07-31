@@ -29,7 +29,6 @@ const MoviesTable = () => {
                     <tr>
                         <th>Title</th>
                         <th>Release Year</th>
-                        <th>Genre</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -37,7 +36,6 @@ const MoviesTable = () => {
                         <tr key={index}>
                             <td>{movie.title}</td>
                             <td>{movie.releaseYear}</td>
-                            <td>{movie.genre}</td>
                         </tr>
                     ))}
                 </tbody>
