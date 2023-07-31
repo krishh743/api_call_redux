@@ -2,6 +2,7 @@
 import React, {useEffect} from 'react';
 import {useSelector, useDispatch} from 'react-redux';
 import {fetchMovies} from '../redux/MoviesSlice';
+import "./Style.css"
 
 const MoviesTable = () => {
     const dispatch = useDispatch();
@@ -20,8 +21,9 @@ const MoviesTable = () => {
     }
 
     return (
-        <div>
-            <h2>Movie List</h2>
+        <div className="movie">
+            <h1>The Basics - Networking</h1>
+            <h2>Your app fetched this from a remote endpoint</h2>
             <table>
                 <thead>
                     <tr>
