@@ -4,6 +4,7 @@ import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import InputField from '../textfields/InputField';
 
 export default function BasicAccordion() {
     return (
@@ -30,6 +31,7 @@ export default function BasicAccordion() {
                     id="panel2a-header"
                 >
                     <Typography>Accordion 2</Typography>
+                    <InputField />
                 </AccordionSummary>
                 <AccordionDetails>
                     <Typography>
