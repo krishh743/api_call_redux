@@ -15,9 +15,8 @@ const MoviesTable = () => {
     if (loading) {
         return <div>Loading...</div>;
     }
-
     if (error) {
-        return <div>Error: {error}</div>;
+        return <h1>Page not found 404</h1>;
     }
 
     return (
