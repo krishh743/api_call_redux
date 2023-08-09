@@ -6,8 +6,8 @@ import Parent from './practice/Parent';
 function App() {
   return (
     <div className="App">
-      {/* <MoviesTable /> */}
-<Parent/>
+      <MoviesTable />
+
     </div>
   );
 }
