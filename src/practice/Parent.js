@@ -1,4 +1,5 @@
 import React, {useMemo, useState} from 'react'
+import Child from './Child';
 
 function Parent() {
     const [counterOne, setCounterOne] = useState();
@@ -29,6 +30,7 @@ return (
         <button onClick={handlecountOne}>counter one</button>
         <button onClick={handlecountTwo}>counter two</button>
         {/* {counterTwo} */}
+<Child/>
     </div>
 )
 }
